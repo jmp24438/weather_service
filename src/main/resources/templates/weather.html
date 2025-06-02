@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+<h1>Weather Data for <span th:text="${location}"></span></h1>
+<div>
+  <h2>Data Table</h2>
+  <div th:utext="${table}"></div>
+</div>
+<div>
+  <h2>Plot</h2>
+  <div th:utext="${plot}"></div>
+</div>
+<a href="/">Back</a>
+</body>
+</html>
