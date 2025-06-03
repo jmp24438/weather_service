@@ -37,7 +37,7 @@ public class WeatherController {
 
     @GetMapping("/")
     public String index() {
-        return "index";
+        return "forward:/";
     }
 
     @PostMapping("/getWeather")

@@ -1,0 +1,12 @@
+.WeatherDisplay {
+  text-align: center;
+  margin: 20px;
+}
+
+.WeatherDisplay h1 {
+  margin-bottom: 20px;
+}
+
+.WeatherDisplay div {
+  margin: 20px 0;
+}
